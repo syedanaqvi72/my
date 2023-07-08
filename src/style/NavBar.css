@@ -1,0 +1,28 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 500px; 
+  height: auto; 
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  margin: 0 30px; 
+  text-decoration: none;
+  color: #0b0a0a; 
+  font-size: 50px; 
+  font-weight: bold;
+}
+
+
+  
+  
+  

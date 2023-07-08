@@ -1,0 +1,45 @@
+.container {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 50rem;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+}
+
+.contact-form input[type='submit'] {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.contact-form:hover {
+  background-color: white;
+  border: 1px solid;
+  color: blue;
+  transform: scale(0.9);
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: flex;
+  flex-direction: column;
+  gap:3rem
+  }
+
+
+
+  
+  
